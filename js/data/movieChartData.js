@@ -1,4 +1,4 @@
-const img_path = '/assets/img/movieCharts'
+const img_path = 'assets/img/movieCharts'
 
 const movieData = [
     {
