@@ -1,0 +1,18 @@
+/* contents size */
+$innerSize: 980px;
+
+/* font-face */
+$defaultFont: Noto Sans KR, 맑은 고딕, 돋움, Dotum, sans-serif;
+$fontDIR: '/assets/fonts/';
+
+/* font-weight */
+$weight-thin: 300;
+$weight-medium: 500;
+$weight-bold: 600;
+
+/* movie slider block variable */
+$slider-item-margin: 32px;
+$slider-item-width: calc(calc($innerSize - calc($slider-item-margin * 4)) / 5);
+
+/* event slider block variable */
+$event-item-width: calc(calc($innerSize - calc($slider-item-margin * 2)) / 3);

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* contents size */
+/* font-face */
+/* font-weight */
+/* movie slider block variable */
+/* event slider block variable */
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("/assets/fonts/NotoSansKR-Thin.woff") format("woff"), url("/assets/fonts/NotoSansKR-Thin.otf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("/assets/fonts/NotoSansKR-Light.woff") format("woff"), url("/assets/fonts/NotoSansKR-Light.otf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("/assets/fonts/NotoSansKR-Medium.woff") format("woff"), url("/assets/fonts/NotoSansKR-Medium.otf") format("truetype");
+  font-weight: 600;
+}
+html, body {
+  font-family: Noto Sans KR, 맑은 고딕, 돋움, Dotum, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: relative;
+  word-break: break-all;
+}
+
+dl, dt, dd {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,43 @@
+@import "./variable.scss";
+
+@font-face{
+    font-family: 'Noto Sans KR';
+    src: url($fontDIR+'NotoSansKR-Thin.woff') format('woff'), 
+    url($fontDIR+'NotoSansKR-Thin.otf') format('truetype');
+    font-weight: 300;
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    src: url($fontDIR+'NotoSansKR-Light.woff') format('woff'), 
+    url($fontDIR+'NotoSansKR-Light.otf') format('truetype');
+    font-weight: 500;
+}
+@font-face{
+    font-family: 'Noto Sans KR';
+    src: url($fontDIR+'NotoSansKR-Medium.woff') format('woff'), 
+    url($fontDIR+'NotoSansKR-Medium.otf') format('truetype');
+    font-weight: 600;
+}
+
+
+html, body{
+    font-family: $defaultFont;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    word-break: break-all;
+}
+dl, dt, dd{margin: 0;}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
