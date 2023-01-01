@@ -117,12 +117,12 @@ header > .nav-menu-contents > .nav-menu-wrap > .search-wrap > .btn_totalSearch {
   height: 25px;
   padding: 0;
   vertical-align: middle;
-  background: url("/assets/img/icon/search.png");
+  background: url("/cgv_clone/assets/img/icon/search.png");
   background-size: cover;
   cursor: pointer;
 }
 header > .nav-menu-contents > .nav-menu-wrap > .search-wrap > .btn_whiteSearch {
-  background: url("/assets/img/icon/search_w.png") !important;
+  background: url("/cgv_clone/assets/img/icon/search_w.png") !important;
   background-size: cover !important;
 }
 header > .nav-detail-contents {
@@ -222,10 +222,10 @@ main > #upcoming-movie-section > div > .movie-intro-wrap > .video-controls-wrap 
   margin-left: 0.4rem;
 }
 main > #upcoming-movie-section > div > .movie-intro-wrap > .video-controls-wrap > #play-btn {
-  background-image: url("/assets/img/icon/play.png");
+  background-image: url("/cgv_clone/assets/img/icon/play.png");
 }
 main > #upcoming-movie-section > div > .movie-intro-wrap > .video-controls-wrap > #mute-btn {
-  background-image: url("/assets/img/icon/soundOff.png");
+  background-image: url("/cgv_clone/assets/img/icon/soundOff.png");
 }
 main > #upcoming-movie-section > div > #movie-assets {
   width: 100%;
@@ -376,6 +376,23 @@ main > #movieChartWrap > .chart-contents > #chart-slider > .slider-wrap > .slide
   margin: 2px 0;
   padding: 3px 1px;
 }
+main > #movieChartWrap > .chart-contents > #chart-slider > .slider-wrap > .slider-items > .chart-info-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main > #movieChartWrap > .chart-contents > #chart-slider > .slider-wrap > .slider-items > .chart-info-wrap > strong {
+  display: block;
+  overflow: hidden;
+  margin-top: 14px;
+  font-size: 18px;
+  color: #222;
+  line-height: 1.167em;
+  text-align: center;
+  text-overflow: ellipsis;
+  width: 170.4px;
+  white-space: nowrap;
+}
 main > #movieChartWrap > .chart-contents > .slider-prev {
   transform: rotate(0deg);
   left: 0;
@@ -402,7 +419,7 @@ main > #movieChartWrap > .chart-contents > .slider-btn::after {
   position: absolute;
   width: 40px;
   height: 40px;
-  background: rgba(255, 255, 255, 0.8) url("/assets/img/icon/arrowL.png") center/9px 13px scroll no-repeat;
+  background: rgba(255, 255, 255, 0.8) url("/cgv_clone/assets/img/icon/arrowL.png") center/9px 13px scroll no-repeat;
 }
 main > #eventListWrap > .event-contents {
   width: 980px;
@@ -430,7 +447,7 @@ main > #eventListWrap > .event-contents > .event-header .pause-btn {
   margin-right: 8px;
   padding: 4px 14px 4px 14px;
   border-radius: 50%;
-  background: transparent url("/assets/img/icon/stop.png") center center/9px 13px scroll no-repeat;
+  background: transparent url("/cgv_clone/assets/img/icon/stop.png") center center/9px 13px scroll no-repeat;
 }
 main > #eventListWrap > .event-contents > .event-header .all-view-btn {
   padding: 4px 15px 4px 15px;
@@ -487,7 +504,7 @@ main > #eventListWrap > .event-contents > .slider-btn::after {
   position: absolute;
   width: 40px;
   height: 40px;
-  background: rgba(255, 255, 255, 0.8) url("/assets/img/icon/arrowL.png") center/9px 13px scroll no-repeat;
+  background: rgba(255, 255, 255, 0.8) url("/cgv_clone/assets/img/icon/arrowL.png") center/9px 13px scroll no-repeat;
 }
 main > #specialHoleWrap {
   width: 980px;
@@ -728,7 +745,7 @@ main > #noticeWrap > .notice-block > .banner-container {
   flex: 0.5;
   border: 1px solid #e4e4e4;
   border-radius: 10px;
-  background: url("/assets/img/16680717914730.png") no-repeat;
+  background: url("/cgv_clone/assets/img/16680717914730.png") no-repeat;
   background-size: cover;
 }
 
