@@ -1,9 +1,9 @@
 /* 특별관 파일 경로 */
 const sphole_file = [
-    '/assets/img/specialHole/16390080561620.png',
-    '/assets/img/specialHole/16553622935690.png',
-    '/assets/img/specialHole/16382612660240.png',
-    '/assets/img/specialHole/16382612660560.png'
+    '/cgv_clone/assets/img/specialHole/16390080561620.png',
+    '/cgv_clone/assets/img/specialHole/16553622935690.png',
+    '/cgv_clone/assets/img/specialHole/16382612660240.png',
+    '/cgv_clone/assets/img/specialHole/16382612660560.png'
 ];
 
 document.addEventListener("DOMContentLoaded", function(){
