@@ -57,9 +57,9 @@ const setSlideItems = (wrapElem, data)=>{
                     </i>
                     <i class="movie-rank">${data[i].id}</i>
                     <div class="cinema-type">
-                        ${data[i].imax?'<img src="/assets/img/icon/imax_white.png" alt="imax"/>':''}
-                        ${data[i].cinema_4d?'<img src="/assets/img/icon/forDX_white.png" alt="forDX"/>':''}
-                        ${data[i].screen_x?'<img src="/assets/img/icon/screenx_white.png" alt="screenx"/>':''}
+                        ${data[i].imax?'<img src="/cgv_clone/assets/img/icon/imax_white.png" alt="imax"/>':''}
+                        ${data[i].cinema_4d?'<img src="/cgv_clone/assets/img/icon/forDX_white.png" alt="forDX"/>':''}
+                        ${data[i].screen_x?'<img src="/cgv_clone/assets/img/icon/screenx_white.png" alt="screenx"/>':''}
                     </div>
                 </div>
             </div>
