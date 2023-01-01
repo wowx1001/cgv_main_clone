@@ -122,12 +122,12 @@ header{
                     height: 25px;
                     padding: 0;
                     vertical-align: middle;
-                    background: url('/assets/img/icon/search.png');
+                    background: url('/cgv_clone/assets/img/icon/search.png');
                     background-size: cover;
                     cursor: pointer;
                 }
                 >.btn_whiteSearch{
-                    background: url('/assets/img/icon/search_w.png') !important;
+                    background: url('/cgv_clone/assets/img/icon/search_w.png') !important;
                     background-size: cover !important;
                 }
             }
@@ -238,10 +238,10 @@ main{
                         margin-left: 0.4rem;
                     }
                     >#play-btn{
-                        background-image: url('/assets/img/icon/play.png');
+                        background-image: url('/cgv_clone/assets/img/icon/play.png');
                     }
                     >#mute-btn{
-                        background-image: url('/assets/img/icon/soundOff.png');
+                        background-image: url('/cgv_clone/assets/img/icon/soundOff.png');
                     }
                 }
             }
@@ -394,6 +394,23 @@ main{
                                 }
                             }
                         }
+                        >.chart-info-wrap{
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            >strong{               
+                                display: block;
+                                overflow: hidden;
+                                margin-top: 14px;
+                                font-size: 18px;
+                                color: #222;
+                                line-height: 1.167em;
+                                text-align: center;
+                                text-overflow: ellipsis;
+                                width: $slider-item-width;
+                                white-space: nowrap;
+                            }
+                        }
                     }
                 }
             }
@@ -425,7 +442,7 @@ main{
                     position: absolute;
                     width: 40px;
                     height: 40px;
-                    background: rgba(255, 255, 255, 0.8) url('/assets/img/icon/arrowL.png') center/9px 13px scroll no-repeat;
+                    background: rgba(255, 255, 255, 0.8) url('/cgv_clone/assets/img/icon/arrowL.png') center/9px 13px scroll no-repeat;
                 }
             }
         }
@@ -458,7 +475,7 @@ main{
                     margin-right: 8px;
                     padding: 4px 14px 4px 14px;
                     border-radius: 50%;
-                    background: transparent url('/assets/img/icon/stop.png') center center/9px 13px scroll no-repeat;
+                    background: transparent url('/cgv_clone/assets/img/icon/stop.png') center center/9px 13px scroll no-repeat;
                 }
 
                 & .all-view-btn{
@@ -523,7 +540,7 @@ main{
                     position: absolute;
                     width: 40px;
                     height: 40px;
-                    background: rgba(255, 255, 255, 0.8) url('/assets/img/icon/arrowL.png') center/9px 13px scroll no-repeat;
+                    background: rgba(255, 255, 255, 0.8) url('/cgv_clone/assets/img/icon/arrowL.png') center/9px 13px scroll no-repeat;
                 }
             }
         }
@@ -779,7 +796,7 @@ main{
                 flex: 0.5;
                 border: 1px solid #e4e4e4;
                 border-radius: 10px;
-                background: url('/assets/img/16680717914730.png') no-repeat;
+                background: url('/cgv_clone/assets/img/16680717914730.png') no-repeat;
                 background-size: cover;
             }
         }
